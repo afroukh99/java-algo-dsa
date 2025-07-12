@@ -29,6 +29,5 @@ public class Main {
 
         System.out.println("Components number :" + weightedQuickUnionPC.getCount());
         System.out.printf("The largest element in the connected component containing  %d : %d" , 4 , weightedQuickUnionPC.find(4));
-
     }
 }
