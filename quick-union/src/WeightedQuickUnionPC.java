@@ -7,6 +7,7 @@ public class WeightedQuickUnionPC {
     public  WeightedQuickUnionPC (int N) {
         parent = new int[N];
         size = new int[N];
+        count = N;
         for (int i = 0 ; i < N ; i++) {
             parent[i] = i;
             size[i] = 1;
